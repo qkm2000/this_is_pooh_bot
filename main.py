@@ -1,6 +1,5 @@
 import os
 import telebot
-import yfinance as yf
 
 API_Key = os.environ['API_Key']
 bot = telebot.TeleBot(API_Key)
